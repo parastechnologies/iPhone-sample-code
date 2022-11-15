@@ -1,0 +1,88 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk.git",
+        "state": {
+          "branch": null,
+          "revision": "82dec0403c32d7b1d93529dcabb9fcb18f0825cc",
+          "version": "9.1.0"
+        }
+      },
+      {
+        "package": "IBAnimatable",
+        "repositoryURL": "https://github.com/IBAnimatable/IBAnimatable.git",
+        "state": {
+          "branch": null,
+          "revision": "e4f5d93c626839abb11cf1441397e93feb584e93",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": null,
+          "revision": "4dc6bc7d1c9747bd0c261c8c055903f9fdef91f7",
+          "version": "6.5.6"
+        }
+      },
+      {
+        "package": "JGProgressHUD",
+        "repositoryURL": "https://github.com/JonasGessner/JGProgressHUD.git",
+        "state": {
+          "branch": null,
+          "revision": "78d7cd35f1d90ff74fd82e486f2cbe4b24be8cf9",
+          "version": "2.2.0"
+        }
+      },
+      {
+        "package": "Loaf",
+        "repositoryURL": "https://github.com/schmidyy/Loaf.git",
+        "state": {
+          "branch": null,
+          "revision": "5f78a659666fd1025579ded60960452a4c60eda6",
+          "version": "0.7.0"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
+          "version": "5.11.1"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "Stevia",
+        "repositoryURL": "https://github.com/freshOS/Stevia.git",
+        "state": {
+          "branch": null,
+          "revision": "a32dc3c015fe583080f4947edf795bced9a11108",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "TweenKit",
+        "repositoryURL": "https://github.com/SteveBarnegren/TweenKit.git",
+        "state": {
+          "branch": null,
+          "revision": "a852bf49aec855202592a0fda385b6cdc3135627",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

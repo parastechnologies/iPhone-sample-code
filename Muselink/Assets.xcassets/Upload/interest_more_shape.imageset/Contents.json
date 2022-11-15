@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "border_shape_btn3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

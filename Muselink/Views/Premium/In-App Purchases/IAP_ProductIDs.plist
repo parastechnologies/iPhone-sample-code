@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.FANZ.1</string>
+	<string>com.FANZ.8</string>
+	<string>com.FANZ.15</string>
+	<string>com.FANZ.30</string>
+	<string>com.FANZ.50</string>
+	<string>com.FANZ.70</string>
+	<string>com.FANZ.120</string>
+	<string>com.FANZ.160</string>
+	<string>com.FANZ.250</string>
+</array>
+</plist>

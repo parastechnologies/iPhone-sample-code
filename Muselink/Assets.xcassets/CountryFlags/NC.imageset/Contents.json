@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "NC@2x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

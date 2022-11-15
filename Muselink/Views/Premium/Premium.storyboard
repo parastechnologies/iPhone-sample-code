@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ONm-bb-nDm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextLTPro-Demi.otf">
+            <string>AvenirNextLTPro-Demi</string>
+        </array>
+        <array key="AvenirNextLTPro-Regular.otf">
+            <string>AvenirNextLTPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pop Up NavigationC-->
+        <scene sceneID="B5V-Mh-A9l">
+            <objects>
+                <navigationController storyboardIdentifier="PremiumNavVC" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ONm-bb-nDm" customClass="PopUpNavigationC" customModule="Muselink" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JEK-zF-5ov">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QpX-Rv-gfs" kind="relationship" relationship="rootViewController" id="Ag0-WF-83H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bjy-rS-njP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363.768115942029" y="178.79464285714286"/>
+        </scene>
+        <!--Premium Plan DetalVC-->
+        <scene sceneID="k8l-m0-fBO">
+            <objects>
+                <viewController storyboardIdentifier="PremiumPlanDetalVC" id="QpX-Rv-gfs" customClass="PremiumPlanDetalVC" customModule="Muselink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aa2-Py-NSj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlr-VH-ntv">
+                                <rect key="frame" x="348" y="59" width="46" height="48"/>
+                                <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="action_Close" destination="QpX-Rv-gfs" eventType="touchUpInside" id="aHo-6K-teK"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoG-Gi-rDu" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                <rect key="frame" x="24" y="783.5" width="366" height="58.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aoG-Gi-rDu" secondAttribute="height" multiplier="187:30" id="j43-tt-ue5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wcf-mM-mzv" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                <rect key="frame" x="107" y="144.5" width="200" height="55"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="te7-H0-FkR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdk-f6-wNK" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                <rect key="frame" x="112" y="149.5" width="190" height="45"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Muselink PRO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfi-GE-Gpf">
+                                <rect key="frame" x="101.5" y="67" width="211.5" height="25.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Out of Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chd-Ch-5Qr">
+                                <rect key="frame" x="147" y="102.5" width="120" height="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Regular" family="Avenir Next LT Pro" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DvC-2e-FCs">
+                                <rect key="frame" x="24" y="689.5" width="366" height="74"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iob-Wv-tVF" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="173" height="74"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRK-2l-wRM" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="193" y="0.0" width="173" height="74"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DvC-2e-FCs" secondAttribute="height" multiplier="183:37" id="qxu-dj-K87"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xpm-56-gGn" customClass="ImageSlideshow" customModule="Muselink" customModuleProvider="target">
+                                <rect key="frame" x="10.5" y="239" width="393" height="358"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="GYk-3m-iJS">
+                                <rect key="frame" x="94" y="602" width="226" height="22"/>
+                                <subviews>
+                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wiA-Z8-fh2" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="Tmy-ee-je9"/>
+                                            <constraint firstAttribute="height" constant="22" id="UnV-91-ljf"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4N9-YK-nQl" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="34" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="42q-3X-fbO"/>
+                                            <constraint firstAttribute="width" constant="22" id="p0K-gq-GrV"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TRw-fv-550" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="68" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="IOK-xk-3Nh"/>
+                                            <constraint firstAttribute="height" constant="22" id="rcq-al-JeK"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84K-5F-SKh" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="102" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="9S7-FT-DIo"/>
+                                            <constraint firstAttribute="width" constant="22" id="ftW-qQ-onj"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ib4-ek-C7M" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="136" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="C2a-i9-B8k"/>
+                                            <constraint firstAttribute="height" constant="22" id="lbq-Eh-V2v"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zj8-Kq-oZq" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="170" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="SyU-D8-tX4"/>
+                                            <constraint firstAttribute="height" constant="22" id="ibI-NM-TuQ"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkZ-RJ-FAi" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                        <rect key="frame" x="204" y="0.0" width="22" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="0IP-Se-dj3"/>
+                                            <constraint firstAttribute="width" constant="22" id="NOV-zu-ckm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oFr-rT-yle"/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xpm-56-gGn" firstAttribute="centerY" secondItem="aa2-Py-NSj" secondAttribute="centerY" constant="-30" id="1xs-sj-F0n"/>
+                            <constraint firstItem="Qdk-f6-wNK" firstAttribute="bottom" secondItem="Wcf-mM-mzv" secondAttribute="bottom" constant="-5" id="24f-Vd-J9m"/>
+                            <constraint firstItem="Xpm-56-gGn" firstAttribute="width" secondItem="aa2-Py-NSj" secondAttribute="width" multiplier="0.95" id="6m5-WY-bsd"/>
+                            <constraint firstItem="DvC-2e-FCs" firstAttribute="leading" secondItem="oFr-rT-yle" secondAttribute="leading" constant="24" id="98B-pB-v8S"/>
+                            <constraint firstItem="aoG-Gi-rDu" firstAttribute="leading" secondItem="oFr-rT-yle" secondAttribute="leading" constant="24" id="9jh-oz-mHh"/>
+                            <constraint firstItem="oFr-rT-yle" firstAttribute="trailing" secondItem="Rlr-VH-ntv" secondAttribute="trailing" constant="20" id="F5V-Y2-IKL"/>
+                            <constraint firstItem="Qdk-f6-wNK" firstAttribute="trailing" secondItem="Wcf-mM-mzv" secondAttribute="trailing" constant="-5" id="HPK-py-Qss"/>
+                            <constraint firstItem="Chd-Ch-5Qr" firstAttribute="centerX" secondItem="aa2-Py-NSj" secondAttribute="centerX" id="HyX-dz-cR0"/>
+                            <constraint firstItem="Qdk-f6-wNK" firstAttribute="top" secondItem="Wcf-mM-mzv" secondAttribute="top" constant="5" id="JLF-Hv-UDb"/>
+                            <constraint firstItem="oFr-rT-yle" firstAttribute="trailing" secondItem="DvC-2e-FCs" secondAttribute="trailing" constant="24" id="JYu-Mh-jqw"/>
+                            <constraint firstItem="pfi-GE-Gpf" firstAttribute="centerX" secondItem="aa2-Py-NSj" secondAttribute="centerX" id="RUY-Fp-So2"/>
+                            <constraint firstItem="Wcf-mM-mzv" firstAttribute="top" secondItem="Chd-Ch-5Qr" secondAttribute="bottom" constant="20" id="SHG-6I-gZe"/>
+                            <constraint firstItem="Rlr-VH-ntv" firstAttribute="top" secondItem="oFr-rT-yle" secondAttribute="top" constant="15" id="SXw-cT-Gj2"/>
+                            <constraint firstItem="oFr-rT-yle" firstAttribute="bottom" secondItem="aoG-Gi-rDu" secondAttribute="bottom" constant="20" id="YxI-rC-Bic"/>
+                            <constraint firstItem="GYk-3m-iJS" firstAttribute="centerX" secondItem="aa2-Py-NSj" secondAttribute="centerX" id="ZJH-Mv-Kgv"/>
+                            <constraint firstItem="Xpm-56-gGn" firstAttribute="centerX" secondItem="aa2-Py-NSj" secondAttribute="centerX" id="bHU-cS-hJB"/>
+                            <constraint firstItem="Qdk-f6-wNK" firstAttribute="leading" secondItem="Wcf-mM-mzv" secondAttribute="leading" constant="5" id="e1j-yS-dHr"/>
+                            <constraint firstItem="Chd-Ch-5Qr" firstAttribute="top" secondItem="pfi-GE-Gpf" secondAttribute="bottom" constant="10" id="jqz-B5-7Ta"/>
+                            <constraint firstItem="aoG-Gi-rDu" firstAttribute="top" secondItem="DvC-2e-FCs" secondAttribute="bottom" constant="20" id="ofc-Je-cho"/>
+                            <constraint firstItem="Xpm-56-gGn" firstAttribute="height" secondItem="aa2-Py-NSj" secondAttribute="height" multiplier="0.4" id="rGS-QN-jIH"/>
+                            <constraint firstItem="Wcf-mM-mzv" firstAttribute="centerX" secondItem="aa2-Py-NSj" secondAttribute="centerX" id="uZE-lb-CMW"/>
+                            <constraint firstItem="aoG-Gi-rDu" firstAttribute="height" secondItem="Wcf-mM-mzv" secondAttribute="height" multiplier="1.06364" id="vJ8-yF-sfr"/>
+                            <constraint firstItem="oFr-rT-yle" firstAttribute="trailing" secondItem="aoG-Gi-rDu" secondAttribute="trailing" constant="24" id="xSa-SK-yq8"/>
+                            <constraint firstItem="GYk-3m-iJS" firstAttribute="top" secondItem="Xpm-56-gGn" secondAttribute="bottom" constant="5" id="xpA-SE-Ah1"/>
+                            <constraint firstItem="pfi-GE-Gpf" firstAttribute="top" secondItem="oFr-rT-yle" secondAttribute="top" constant="23" id="xze-vT-nSC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="prz-6v-jiv"/>
+                    <connections>
+                        <outlet property="btn_Continue" destination="aoG-Gi-rDu" id="g5D-Vk-IO0"/>
+                        <outlet property="btn_Plan_1" destination="Iob-Wv-tVF" id="myZ-bG-GoU"/>
+                        <outlet property="btn_Plan_2" destination="DRK-2l-wRM" id="gBP-Ws-Dmj"/>
+                        <outlet property="slideShow" destination="Xpm-56-gGn" id="mnk-OC-EMU"/>
+                        <outlet property="view_TimerBack" destination="Wcf-mM-mzv" id="PUT-3P-bCu"/>
+                        <outlet property="view_TimerSelectedback" destination="Qdk-f6-wNK" id="J50-Qw-poI"/>
+                        <outletCollection property="view_Dots" destination="wiA-Z8-fh2" collectionClass="NSMutableArray" id="lbh-Ys-IFx"/>
+                        <outletCollection property="view_Dots" destination="4N9-YK-nQl" collectionClass="NSMutableArray" id="hzR-W4-SBd"/>
+                        <outletCollection property="view_Dots" destination="TRw-fv-550" collectionClass="NSMutableArray" id="loJ-8D-rEH"/>
+                        <outletCollection property="view_Dots" destination="84K-5F-SKh" collectionClass="NSMutableArray" id="XWU-IM-Uoe"/>
+                        <outletCollection property="view_Dots" destination="ib4-ek-C7M" collectionClass="NSMutableArray" id="Dcd-DQ-LLF"/>
+                        <outletCollection property="view_Dots" destination="Zj8-Kq-oZq" collectionClass="NSMutableArray" id="jE4-8n-uv5"/>
+                        <outletCollection property="view_Dots" destination="gkZ-RJ-FAi" collectionClass="NSMutableArray" id="C9A-5e-ctU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBt-WQ-L4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228.985507246377" y="178.79464285714286"/>
+        </scene>
+        <!--Premium Thank You SupportVC-->
+        <scene sceneID="FuI-B8-NcZ">
+            <objects>
+                <viewController storyboardIdentifier="PremiumThankYouSupportVC" id="Olu-Bq-4zU" customClass="PremiumThankYouSupportVC" customModule="Muselink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eWk-Ph-XX5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Rz-qH-z92" customClass="SoftUIView" customModule="Muselink" customModuleProvider="target">
+                                <rect key="frame" x="20" y="782" width="374" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2Rz-qH-z92" secondAttribute="height" multiplier="187:30" id="Qm6-B4-3Yq"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="muse_round_icon" translatesAutoresizingMaskIntoConstraints="NO" id="uNk-r2-Er4">
+                                <rect key="frame" x="86" y="44" width="242" height="166"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for the support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GS-7F-vvf">
+                                <rect key="frame" x="88" y="210" width="238.5" height="20"/>
+                                <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whu-OS-oCB">
+                                <rect key="frame" x="0.0" y="260" width="414" height="502"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8q9-cH-W1J">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                        <subviews>
+                                            <button hidden="YES" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhX-X0-XcP" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="20" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Unlimited Likes"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nM-mq-ZoG" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="55" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Unlimited Swipes"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhX-tH-qMx" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="90" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Unlimited Rewinds"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOt-hr-X4t" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="125" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Access the search library"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnn-AS-5zg" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="160" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="5 daily Direct Messages"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COm-W6-vSW" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="195" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Double upload limit"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlY-ns-Dds" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="230" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Hear full sound files"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDG-B2-ZhB" customClass="CustomLeftImageButton" customModule="Muselink" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="265" width="374" height="30"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="done_tick"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleStr" value="Biography PRO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="mhX-tH-qMx" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="34v-zN-ITf"/>
+                                            <constraint firstItem="YhX-X0-XcP" firstAttribute="top" secondItem="8q9-cH-W1J" secondAttribute="top" constant="20" symbolic="YES" id="90m-Hr-0Dd"/>
+                                            <constraint firstItem="YhX-X0-XcP" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="AU3-hQ-dhC"/>
+                                            <constraint firstItem="cnn-AS-5zg" firstAttribute="top" secondItem="aOt-hr-X4t" secondAttribute="bottom" constant="5" id="Fvg-6m-dI3"/>
+                                            <constraint firstItem="3nM-mq-ZoG" firstAttribute="top" secondItem="YhX-X0-XcP" secondAttribute="bottom" constant="5" id="H9x-4u-pVn"/>
+                                            <constraint firstAttribute="trailing" secondItem="3nM-mq-ZoG" secondAttribute="trailing" constant="20" symbolic="YES" id="Iez-xc-UQa"/>
+                                            <constraint firstAttribute="trailing" secondItem="mhX-tH-qMx" secondAttribute="trailing" constant="20" symbolic="YES" id="JYA-Pc-3eR"/>
+                                            <constraint firstItem="JlY-ns-Dds" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="L8M-Ei-Iil"/>
+                                            <constraint firstAttribute="trailing" secondItem="eDG-B2-ZhB" secondAttribute="trailing" constant="20" symbolic="YES" id="PvW-aY-ZV3"/>
+                                            <constraint firstItem="aOt-hr-X4t" firstAttribute="top" secondItem="mhX-tH-qMx" secondAttribute="bottom" constant="5" id="QJy-1q-DJi"/>
+                                            <constraint firstItem="mhX-tH-qMx" firstAttribute="top" secondItem="3nM-mq-ZoG" secondAttribute="bottom" constant="5" id="a4z-k5-aij"/>
+                                            <constraint firstAttribute="trailing" secondItem="YhX-X0-XcP" secondAttribute="trailing" constant="20" symbolic="YES" id="afT-rm-DEB"/>
+                                            <constraint firstItem="COm-W6-vSW" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="cdr-TX-DcS"/>
+                                            <constraint firstItem="eDG-B2-ZhB" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="ejI-SH-woe"/>
+                                            <constraint firstItem="eDG-B2-ZhB" firstAttribute="top" secondItem="JlY-ns-Dds" secondAttribute="bottom" constant="5" id="eyA-mK-F5T"/>
+                                            <constraint firstItem="cnn-AS-5zg" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="faN-hU-Ytn"/>
+                                            <constraint firstItem="JlY-ns-Dds" firstAttribute="top" secondItem="COm-W6-vSW" secondAttribute="bottom" constant="5" id="gzz-wf-8iu"/>
+                                            <constraint firstAttribute="bottom" secondItem="eDG-B2-ZhB" secondAttribute="bottom" constant="20" id="kki-AP-TgI"/>
+                                            <constraint firstItem="aOt-hr-X4t" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="lck-6N-a6w"/>
+                                            <constraint firstAttribute="trailing" secondItem="COm-W6-vSW" secondAttribute="trailing" constant="20" symbolic="YES" id="lww-52-v0J"/>
+                                            <constraint firstAttribute="trailing" secondItem="aOt-hr-X4t" secondAttribute="trailing" constant="20" symbolic="YES" id="mKP-iK-zJO"/>
+                                            <constraint firstItem="3nM-mq-ZoG" firstAttribute="leading" secondItem="8q9-cH-W1J" secondAttribute="leading" constant="20" symbolic="YES" id="n7P-aE-8B5"/>
+                                            <constraint firstAttribute="trailing" secondItem="JlY-ns-Dds" secondAttribute="trailing" constant="20" symbolic="YES" id="xhr-qf-ye3"/>
+                                            <constraint firstItem="COm-W6-vSW" firstAttribute="top" secondItem="cnn-AS-5zg" secondAttribute="bottom" constant="5" id="yK3-vp-Mpx"/>
+                                            <constraint firstAttribute="trailing" secondItem="cnn-AS-5zg" secondAttribute="trailing" constant="20" symbolic="YES" id="zLs-Fc-31H"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8q9-cH-W1J" firstAttribute="leading" secondItem="whu-OS-oCB" secondAttribute="leading" id="3Xw-QC-6hJ"/>
+                                    <constraint firstItem="8q9-cH-W1J" firstAttribute="centerX" secondItem="whu-OS-oCB" secondAttribute="centerX" id="9zd-ha-qoV"/>
+                                    <constraint firstAttribute="bottom" secondItem="8q9-cH-W1J" secondAttribute="bottom" id="CTQ-6m-A32"/>
+                                    <constraint firstItem="8q9-cH-W1J" firstAttribute="top" secondItem="whu-OS-oCB" secondAttribute="top" id="jFA-CH-9J2"/>
+                                    <constraint firstAttribute="trailing" secondItem="8q9-cH-W1J" secondAttribute="trailing" id="r9Y-Zg-jEM"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y7v-jy-ftF"/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Rz-qH-z92" firstAttribute="leading" secondItem="y7v-jy-ftF" secondAttribute="leading" constant="20" id="I9b-85-aDZ"/>
+                            <constraint firstItem="y7v-jy-ftF" firstAttribute="trailing" secondItem="2Rz-qH-z92" secondAttribute="trailing" constant="20" id="Jtg-jS-LtW"/>
+                            <constraint firstItem="whu-OS-oCB" firstAttribute="leading" secondItem="y7v-jy-ftF" secondAttribute="leading" id="YK0-db-mSk"/>
+                            <constraint firstItem="y7v-jy-ftF" firstAttribute="bottom" secondItem="2Rz-qH-z92" secondAttribute="bottom" constant="20" id="gp6-Ym-RVx"/>
+                            <constraint firstItem="uNk-r2-Er4" firstAttribute="top" secondItem="y7v-jy-ftF" secondAttribute="top" id="hT6-y5-MgI"/>
+                            <constraint firstItem="whu-OS-oCB" firstAttribute="trailing" secondItem="y7v-jy-ftF" secondAttribute="trailing" id="jk0-SY-cHZ"/>
+                            <constraint firstItem="whu-OS-oCB" firstAttribute="top" secondItem="1GS-7F-vvf" secondAttribute="bottom" constant="30" id="pWF-Es-HuR"/>
+                            <constraint firstItem="2Rz-qH-z92" firstAttribute="top" secondItem="whu-OS-oCB" secondAttribute="bottom" constant="20" id="rZO-bJ-qsZ"/>
+                            <constraint firstItem="1GS-7F-vvf" firstAttribute="centerX" secondItem="eWk-Ph-XX5" secondAttribute="centerX" id="sLW-1u-5h3"/>
+                            <constraint firstItem="uNk-r2-Er4" firstAttribute="centerX" secondItem="eWk-Ph-XX5" secondAttribute="centerX" id="ujm-Ib-xmz"/>
+                            <constraint firstItem="1GS-7F-vvf" firstAttribute="top" secondItem="uNk-r2-Er4" secondAttribute="bottom" id="zuJ-Ci-Nia"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OJ9-Gd-kjb"/>
+                    <connections>
+                        <outlet property="btn_Continue" destination="2Rz-qH-z92" id="NuE-L6-8Xa"/>
+                        <outletCollection property="btn_List" destination="YhX-X0-XcP" collectionClass="NSMutableArray" id="kf9-TQ-SRf"/>
+                        <outletCollection property="btn_List" destination="3nM-mq-ZoG" collectionClass="NSMutableArray" id="At6-JL-tam"/>
+                        <outletCollection property="btn_List" destination="mhX-tH-qMx" collectionClass="NSMutableArray" id="m3a-WA-4bb"/>
+                        <outletCollection property="btn_List" destination="aOt-hr-X4t" collectionClass="NSMutableArray" id="ByR-5J-NNX"/>
+                        <outletCollection property="btn_List" destination="cnn-AS-5zg" collectionClass="NSMutableArray" id="6Vw-wx-ZoA"/>
+                        <outletCollection property="btn_List" destination="COm-W6-vSW" collectionClass="NSMutableArray" id="4Qc-1Q-xBs"/>
+                        <outletCollection property="btn_List" destination="JlY-ns-Dds" collectionClass="NSMutableArray" id="BPk-xC-Cr6"/>
+                        <outletCollection property="btn_List" destination="eDG-B2-ZhB" collectionClass="NSMutableArray" id="CWb-u0-99h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egp-Au-QQr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2077" y="179"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="3nM-mq-ZoG">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="COm-W6-vSW">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="JlY-ns-Dds">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="YhX-X0-XcP">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="aOt-hr-X4t">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="cnn-AS-5zg">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="eDG-B2-ZhB">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="mhX-tH-qMx">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="close" width="46" height="48"/>
+        <image name="done_tick" width="26.5" height="23"/>
+        <image name="muse_round_icon" width="242" height="166"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
