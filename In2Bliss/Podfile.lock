@@ -1,0 +1,24 @@
+PODS:
+  - IBAnimatable (6.1.0)
+  - JGProgressHUD (2.2)
+  - Loaf (0.7.0)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - JGProgressHUD
+  - Loaf
+
+SPEC REPOS:
+  trunk:
+    - IBAnimatable
+    - JGProgressHUD
+    - Loaf
+
+SPEC CHECKSUMS:
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+
+PODFILE CHECKSUM: 27df9bfc1c5e9f9469ec65aa124950a4aca1b6e6
+
+COCOAPODS: 1.14.3

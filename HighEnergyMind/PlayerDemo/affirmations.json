@@ -1,0 +1,196 @@
+{
+    "success": true,
+    "message": "Affirmation found",
+    "data": [
+        {
+            "id": 26,
+            "affirmation_id": "A10025",
+            "affirmation_text_german": "Meine Arbeit ist eine Quelle der Anerkennung und des Aufstiegs.",
+            "affirmation_text_english": "Lorem ipsum text 7",
+            "created_at": "2024-06-10 13:39:48",
+            "audioFiles": [
+                {
+                    "id": 126,
+                    "aff_id": 26,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AAENA10006.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AADEA10006.mp3",
+                    "aff_duration_english": "06",
+                    "aff_duration_german": "05",
+                    "speaker_name": "PhilippAA",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643775_symbiont4387_portrait_photography_of_the_adult_daughter_of_janu_4acf136f-58ca-48e2-8c91-cb71966dc7e8.png"
+                },
+                {
+                    "id": 127,
+                    "aff_id": 26,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABENA10006.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABDEA10006.mp3",
+                    "aff_duration_english": "04",
+                    "aff_duration_german": "04",
+                    "speaker_name": "SpeakerAB",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1714484134__hausser_philipp_berlin_profil.jpg"
+                },
+                {
+                    "id": 128,
+                    "aff_id": 26,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACENA10006.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACDEA10006.mp3",
+                    "aff_duration_english": "05",
+                    "aff_duration_german": "05",
+                    "speaker_name": "VerenaAC",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643629_jodykite_photo_of_a_white_english_woman_on_a_white_background.__0438f94c-268a-4622-9bda-99018c63110e.png"
+                },
+                {
+                    "id": 129,
+                    "aff_id": 26,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADENA10006.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADDEA10006.mp3",
+                    "aff_duration_english": "03",
+                    "aff_duration_german": "03",
+                    "speaker_name": "SpeakerAD",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643787_kabloom34262_modern_Turkish_women_enjoying_the_night_webcam_pho_45945074-5cc0-4163-8dbf-20b471a16fee.png"
+                },
+                {
+                    "id": 130,
+                    "aff_id": 26,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ASDEA10006.mp3",
+                    "aff_duration_english": null,
+                    "aff_duration_german": "05",
+                    "speaker_name": "",
+                    "speaker_img": ""
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "affirmation_id": "A10026",
+            "affirmation_text_german": "Mit Begeisterung und Engagement steige ich die Karriereleiter hinauf.",
+            "affirmation_text_english": "Lorem ipsum text 8",
+            "created_at": "2024-06-10 13:39:48",
+            "audioFiles": [
+                {
+                    "id": 131,
+                    "aff_id": 27,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AAENA10007.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AADEA10007.mp3",
+                    "aff_duration_english": "06",
+                    "aff_duration_german": "06",
+                    "speaker_name": "PhilippAA",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643775_symbiont4387_portrait_photography_of_the_adult_daughter_of_janu_4acf136f-58ca-48e2-8c91-cb71966dc7e8.png"
+                },
+                {
+                    "id": 132,
+                    "aff_id": 27,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABENA10007.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABDEA10007.mp3",
+                    "aff_duration_english": "04",
+                    "aff_duration_german": "04",
+                    "speaker_name": "SpeakerAB",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1714484134__hausser_philipp_berlin_profil.jpg"
+                },
+                {
+                    "id": 133,
+                    "aff_id": 27,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACENA10007.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACDEA10007.mp3",
+                    "aff_duration_english": "06",
+                    "aff_duration_german": "06",
+                    "speaker_name": "VerenaAC",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643629_jodykite_photo_of_a_white_english_woman_on_a_white_background.__0438f94c-268a-4622-9bda-99018c63110e.png"
+                },
+                {
+                    "id": 134,
+                    "aff_id": 27,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADENA10007.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADDEA10007.mp3",
+                    "aff_duration_english": "04",
+                    "aff_duration_german": "04",
+                    "speaker_name": "SpeakerAD",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643787_kabloom34262_modern_Turkish_women_enjoying_the_night_webcam_pho_45945074-5cc0-4163-8dbf-20b471a16fee.png"
+                },
+                {
+                    "id": 135,
+                    "aff_id": 27,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ASDEA10007.mp3",
+                    "aff_duration_english": null,
+                    "aff_duration_german": "06",
+                    "speaker_name": "",
+                    "speaker_img": ""
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "affirmation_id": "A10027",
+            "affirmation_text_german": "Meine Fähigkeiten und Talente führen mich zum beruflichen Erfolg.",
+            "affirmation_text_english": "Lorem ipsum text 9",
+            "created_at": "2024-06-10 13:39:48",
+            "audioFiles": [
+                {
+                    "id": 136,
+                    "aff_id": 28,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AAENA10008.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/AADEA10008.mp3",
+                    "aff_duration_english": "06",
+                    "aff_duration_german": "06",
+                    "speaker_name": "PhilippAA",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643775_symbiont4387_portrait_photography_of_the_adult_daughter_of_janu_4acf136f-58ca-48e2-8c91-cb71966dc7e8.png"
+                },
+                {
+                    "id": 137,
+                    "aff_id": 28,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABENA10008.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ABDEA10008.mp3",
+                    "aff_duration_english": "04",
+                    "aff_duration_german": "04",
+                    "speaker_name": "SpeakerAB",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1714484134__hausser_philipp_berlin_profil.jpg"
+                },
+                {
+                    "id": 138,
+                    "aff_id": 28,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACENA10008.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ACDEA10008.mp3",
+                    "aff_duration_english": "06",
+                    "aff_duration_german": "06",
+                    "speaker_name": "VerenaAC",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643629_jodykite_photo_of_a_white_english_woman_on_a_white_background.__0438f94c-268a-4622-9bda-99018c63110e.png"
+                },
+                {
+                    "id": 139,
+                    "aff_id": 28,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADENA10008.mp3",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ADDEA10008.mp3",
+                    "aff_duration_english": "05",
+                    "aff_duration_german": "05",
+                    "speaker_name": "SpeakerAD",
+                    "speaker_img": "https://php.parastechnologies.in/highMindEnergy/public/speakers/1716643787_kabloom34262_modern_Turkish_women_enjoying_the_night_webcam_pho_45945074-5cc0-4163-8dbf-20b471a16fee.png"
+                },
+                {
+                    "id": 140,
+                    "aff_id": 28,
+                    "aff_english": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/",
+                    "aff_german": "https://hemappaffirmationstorage.s3.eu-central-1.amazonaws.com/ASDEA10008.mp3",
+                    "aff_duration_english": null,
+                    "aff_duration_german": "06",
+                    "speaker_name": "",
+                    "speaker_img": ""
+                }
+            ]
+        }
+    ],
+    "trackDetails": {
+        "id": 1,
+        "category_name": "Self-image & self-love",
+        "track_title": "track 1",
+        "track_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros elit, scelerisque eget arcu non, consectetur auctor tortor. Etiam ac malesuada enim. Mauris elementum purus turpis, fermentum mollis metus suscipit ut. Donec feugiat turpis ex, eget mattis ipsum sagittis in.",
+        "track_thumbnail": "https://php.parastechnologies.in/highMindEnergy/public/background_track_img/1716967586_nature-02.jpg",
+        "total_track_duration": 30,
+        "background_music_id": 1,
+        "background_img_id": 1,
+        "background_track_music": "https://php.parastechnologies.in/highMindEnergy/public/background_track_audio/1715509483_music_demo01.mp3",
+        "background_track_img": "https://php.parastechnologies.in/highMindEnergy/public/background_track_img/beautiful-spring-day.jpg",
+        "is_favourite": 1
+    }
+}

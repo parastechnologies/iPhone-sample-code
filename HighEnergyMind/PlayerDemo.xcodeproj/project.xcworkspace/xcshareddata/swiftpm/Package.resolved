@@ -1,0 +1,42 @@
+{
+  "originHash" : "7f235728812049e4e2be2aafb488d35e27b05eb416b0ebd90d019ea078ce04ad",
+  "pins" : [
+    {
+      "identity" : "ibanimatable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IBAnimatable/IBAnimatable.git",
+      "state" : {
+        "revision" : "e4f5d93c626839abb11cf1441397e93feb584e93",
+        "version" : "6.1.0"
+      }
+    },
+    {
+      "identity" : "loaf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/schmidyy/Loaf.git",
+      "state" : {
+        "revision" : "5f78a659666fd1025579ded60960452a4c60eda6",
+        "version" : "0.7.0"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "769b88d83a42ca8d5572b020c96f47e3690b3796",
+        "version" : "4.4.3"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "b8523c1642f3c142b06dd98443ea7c48343a4dfd",
+        "version" : "5.19.3"
+      }
+    }
+  ],
+  "version" : 3
+}

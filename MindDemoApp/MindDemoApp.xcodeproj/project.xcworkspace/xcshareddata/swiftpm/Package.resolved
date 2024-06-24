@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "ibanimatable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IBAnimatable/IBAnimatable.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "242a77ff0647ace466a2d046f5fee31b0e3e1e88"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "19e111f9246b3407fe0c334dc78fa890c40d8c67"
+      }
+    },
+    {
+      "identity" : "jgprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JonasGessner/JGProgressHUD.git",
+      "state" : {
+        "revision" : "78d7cd35f1d90ff74fd82e486f2cbe4b24be8cf9",
+        "version" : "2.2.0"
+      }
+    },
+    {
+      "identity" : "loaf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/schmidyy/Loaf.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ce8059a0c484f4ddf3bc63eb094a2ae7b4d4d0f7"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b8523c1642f3c142b06dd98443ea7c48343a4dfd"
+      }
+    }
+  ],
+  "version" : 2
+}
